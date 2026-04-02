@@ -21,7 +21,80 @@ rating: 2000
 name: "Daniel Cormier",
 img: "fighters/cormier.jpg",
 rating: 1800
+},
+
+{
+name: "Georges St-Pierre",
+img: "fighters/gsp.jpg",
+rating: 1900
+},
+
+{
+name: "Anderson Silva",
+img: "fighters/silva.jpg",
+rating: 1700    
+},
+
+{
+name: "Israel Adesanya",
+img: "fighters/adesanya.jpg",
+rating: 1650    
+},
+
+{
+name: "Stipe Miocic",
+img: "fighters/miocic.jpg",
+rating: 1550
+},
+
+{
+name: "Alexander Volkanovski",
+img: "fighters/volkanovski.jpg",
+rating: 1580
+},
+
+{
+name: "Charles Oliveira",
+img: "fighters/oliveira.jpg",
+rating: 1600
+},
+
+{
+name: "Islam Makhachev",
+img: "fighters/makhachev.jpg",
+rating: 1600
+},
+
+{
+name: "Alex Pereira",
+img: "fighters/pereira.jpg",
+rating: 2000
+},
+
+{
+name: "Khamzat Chimaev",
+img: "fighters/chimaev.jpg",
+rating: 1600
+},
+
+{
+name: "Nate Diaz",
+img: "fighters/diaz.jpg",
+rating: 1600
+},
+
+{
+name: "Dustin Poirier",
+img: "fighters/poirier.jpg",
+rating: 1600
+},
+
+{
+name: "Tony Ferguson",
+img: "fighters/ferguson.jpg",
+rating: 1600
 }
+
 ];
 
 const fighter1Img = document.getElementById("fighter1-img");
