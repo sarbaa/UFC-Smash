@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #333;
+}
+
+.header h1 i {
+    color: red;
+    font-weight: bolder;
+}
+
+.header p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #333;
+}    
+
+.fighters {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 20px;
+    font-size: 40px;
+    
+}
+
+.VS {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.fighter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fighter h4 {
+    margin-top: 22px;
+}
+
+.fighter img {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+}
+
+.fighter img:hover {
+  transform: scale(1.02);
+}
+
+.leaderboard {
+    text-align: center;
+}
+
+.list {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-bottom: 50px;
+}
